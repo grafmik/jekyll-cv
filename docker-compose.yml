@@ -1,0 +1,14 @@
+services:
+  jekyll:
+    container_name: grafmik.github.io
+    image: jekyll/builder:4.0
+    command: jekyll serve --watch --force_polling --verbose --livereload --host 0.0.0.0
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      JEKYLL_UID: 1001
+      JEKYLL_GID: 1001
+      JEKYLL_VERSION: 4.0
+    ports:
+      - 4000:4000
+      - 35729:35729

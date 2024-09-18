@@ -1,6 +1,6 @@
 * {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    text-align: justify;
+    // text-align: justify;
     line-height: 1.5;
 }
 
@@ -25,6 +25,7 @@ body {
         grid-template-columns: 2fr 5fr;
         .sidebar {
             margin-top: 20px;
+            padding-right: 20px;
         }
     }
 }

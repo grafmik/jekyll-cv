@@ -9,6 +9,10 @@
             @include body-text;
             font-weight: bold;
         }
+        .option {
+            @include body-text;
+            font-style: italic;
+        }
         .university {
             @include body-text;
         }

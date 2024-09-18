@@ -5,5 +5,9 @@
     }
     .idiom {
         @include body-text;
+        font-weight: bold;
+    }
+    .level {
+        @include body-text;
     }
 }

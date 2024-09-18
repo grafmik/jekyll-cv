@@ -3,6 +3,7 @@
         @include header;
     }
     .experience-item {
+        margin-bottom: 20px;
         .role {
             @include sub-header;
         }
@@ -15,11 +16,19 @@
                 font-weight: 100;
             }
         }
-        .details {
+        .content {
             @include body-text;
+        }
+        .detail {
+            @include body-text;
+            display: list-item;
+            list-style-position: inside;
         }
         .technologies {
             @include body-text;
+            .intro {
+                font-style: italic;    
+            }
         }
     }
 }

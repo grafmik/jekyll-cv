@@ -1,108 +1,265 @@
-name: John Doe
+name: Michael Graf
+description: Consultant senior back-end
 support_dark_mode: true
 fork: true
 
-# Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  location: Lausanne, Suisse
+  phone: 078/698.12.06
+  email: grafmik@gmail.com
+  linkedin: grafmik
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Français
+    level: langue maternelle
+  - idiom: Anglais
+    level: parlé et écrit, TOEFL 270/300
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MBA (Master d'Administration des Entreprises)
+    option: Gestion de Projet
+    time: 2009
+    university: IAE Sorbonne, Paris
+    content: |
+      Le MBA couvre les problématiques de l'entreprise : législation, gestion, etc.
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: Diplôme d'ingénierie en informatique
+    option: Logiciel
+    time: 2002
+    university: UTBM, Belfort
+    content: |
+      Un enseignement varié et spécialisé, technique et humain
 
 skills:
-  - category: Backend
+  - category: Back-end
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
+      - Java
+      - Spring
+      - JPA
+      - Hibernate
+      - SQL
+  - category: Front-end
     skill:
-      - React
       - Typescript
+      - Javascript
+      - ES6
+      - Angular
+      - React
+      - HTML
+      - CSS
   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
+      - Maven
+      - Liquibase
+      - Flyway
+      - Git
+      - Gitlab
+      - Bitbucket
+      - Jenkins
+      - Sonar
+      - Jira
+      - Agile
+      - Scrum
+      - TDD
 
-# Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+#profile: |
+#  Consultant senior back-end Java
+#  Expérience front-end
 
-# Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+  - role: Développeur back-end
+    time: Fév 2024 - Août 2024 (7 mois)
+    company: Ville de Lausanne, Lausanne, Suisse
+    content: |
+      Développement d'une application de gestion des autorisations commerciales de la ville de Lausanne
+    details:
+      - Développement, intégration et tests
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Java, GraphQL, OpenAPI, Spring Data, Hibernate, PostgreSQL, Docker, Git, Gitlab, Redmine, Scrum, Agile
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+  - role: Développeur back-end
+    time: Oct 2023 - Déc 2023 (3 mois)
+    company: Globaz, Neuchâtel, Suisse
+    content: |
+      Développement d'une application pour proposer des stratégies de placement dans le cadre légal d'un plan de prévoyance professionnel 2e pilier
+    details:
+      - Développement, intégration et tests
+      - Respect de délais stricts
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      Java, Quarkus, REST, Hibernate, Envers, Liquibase, PostgreSQL, Keycloak, Docker, Git, Sonar, ArchUnit, Renovate, Dependency-Track, Gitlab, Jira, TDD, DDD, architecture hexagonale, Feature Workflow, Scrum, Agile
 
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - role: Développeur
+    time: Jan 2021 - Sep 2023 (33 mois)
+    company: Projets personnels de développement
+    content: |
+      Développement de diverses applications (apprentissage, quizz, génération d'image, etc.)
+    details:
+      - Développement, intégration et tests
+      - Veille technologique
+    technologies_used: | 
+      Java, NextJS, React, Flutter, Web3/Solidity, outils de Machine Learning
+      
+  - role: Expert technique full-stack
+    time: Nov 2016 - Déc 2020 (50 mois)
+    company: Etat de Vaud, Lausanne, Suisse
+    content: |
+      Première mission (2016-2018) au pôle "cyber administration", gestion de prestations d'état dématérialisées (Actes d'état civil, Autorisations municipales, etc.), gestion d'identité et gestion de la communication par voie électronique entre autorités et administrés
+      Seconde mission (2019-2020) au pôle "formation professionnelle"
+    details:
+      - Développement Full Stack, JavaScript/Angular et Java/Spring/Hibernate
+      - Mise en place d'un Feature Workflow assurant une meilleure qualité de code
+      - Développement du framework cyber pour accélérer et standardiser les développements de nouvelles prestations étatiques
+      - Développement quasi-intégral d'une application BackOffice réceptionnant les demandes des prestations cyber du pôle formation professionnelle, en s'appuyant sur le framework développé
+      - Découverte du fonctionnel étatique, expérience positive avec une administration publique
+      - Synchronisation avec de multiples équipes, notamment métier, architecture, ESB, infra, éditique, archivage, etc.
+      - Amélioration d'une application de gestion des inscriptions aux examens, des procédures de qualification, de la délivrance des titres et de l'archivage électronique
+    technologies_used: | 
+      Java, Javascript, Angular, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Oracle, Jaxb, Jackson, ESB, Git, Tomcat, Jira, Bitbucket, Feature Workflow, Jenkins, Scrum, Agile
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - role: Développeur front-end
+    time: Sep 2016 - Oct 2016 (2 mois)
+    company: Lombard-Odier, Genève, Suisse
+    content: |
+      Gestionnaire de droits d'accès
+    details:
+      - Contexte commercial initialement difficile
+      - Restauration de la confiance client grâce notamment à une fréquence accrue des livraisons et du feedback, inspirée de la méthodologie Scrum
+      - Mise en place de toute la partie front-end
+    technologies_used: | 
+      Javascript, AngularJS, Swagger, REST, JSON, Git, Scrum, Agile
 
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+  - role: Expert technique full-stack
+    time: Nov 2015 - Août 2016 (10 mois)
+    company: E-just, Genève, Suisse
+    content: |
+      Développement d'une application d'arbitrage juridique pour la résolution de conflits commerciaux en ligne
+    details:
+      - Développement Full Stack en JavaScript/Angular et Java/Spring/Hibernate
+      - Qualité de code garantie notamment par un Feature Workflow et des pull request validées après un code review systématique entre collaborateurs
+      - Start-up en pleine expansion, investissement ambitieux, conquête d'un marché inexploré, ambiance de développement bouillonnante et innovative
+    technologies_used: | 
+      Javascript, AngularJS, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Spring Security, Flyway, Jackson, Git, Tomcat, Jira, Bitbucket, Feature Workflow, Scrum, Agile
+      
+  - role: Formation technique complémentaire
+    time: Avr 2015 - Août 2015 (5 mois)
+    company: Ateliers Nomades, Genève, Suisse
+    content: |
+      Exploration technologique et développement d'applications
+    technologies_used: | 
+      Environnement Technique : AngularJS, React, Ionic
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+  - role: Expert technique full-stack
+    time: Nov 2014 - Mars 2015 (5 mois)
+    company: parrain.org, Genève, Suisse
+    content: |
+      Développement d'un site internet de crowdfunding
+    details:
+      - Conception du site (Javascript, AngularJS)
+      - Apport d'expertise pour le backend Java (JHipster, Spring, OAuth)
+      - Conception de la communication client/serveur (JSON, REST)
+      - Prise en charge de la partie exploitation (hébergement, installation et configuration serveur, workflow de développement, Git, Jenkins, etc.)
+      - Développement, tests et intégration
+    technologies_used: | 
+      JHipster, Javascript, AngularJS, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Spring Security, Jenkins, Git, Cloud9, Docker
+      
+  - role: Expert et Lead Technique Javascript / Angular.js
+    time: Sep 2013 - Oct 2014 (14 mois)
+    company: Blue Infinity / Pictet, Genève, Suisse
+    content: |
+      Développement d'une application de gestion de référentiel client et de flux de documents
+    details:
+      - Conception de l'architecture logicielle côté interface web (Javascript, AngularJS)
+      - Conception de la communication client/serveur pour des données JSON complexes (REST)
+      - Développement, tests et intégration
+      - Application critique et urgente livrée avec succès dans les délais et le budget
+    technologies_used: | 
+      Javascript, AngularJS, REST, JSON, JEE, Spring MVC, Spring Data, Hibernate, SQL Server, Spring Security, Jenkins, Sonar, Git, SVN, Tomcat
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  - role: Lead developer
+    time: Fév 2012 - Jul 2013 (18 mois)
+    company: 9mp - Incubateur de projets, Lyon, France
+    content: |
+      Développement de plusieurs sites web (Jeu, chat, gestion prospect)
+    details:
+      - Direction, coordination et organisation
+      - Encadrement et formation de 7 personnes
+      - Développement et intégration, référence technique auprès des membres de l'équipe
+      - Installation et configuration de serveurs
+      - Veille technologique
+    technologies_used: | 
+      Angular.js, Node.js, Jquery, HTML5, CSS3, Bootstrap, Ruby, Java, php, flash media server, windows 7, mac os X, Debian en ssh + bash en CLI pour les serveurs
+
+  - role: Ingénieur conception et développement
+    time: Fév 2010 - Fév 2012 (24 mois)
+    company: Softeam / Société Générale SGCIB, Paris, France
+    content: |
+      Services d'agrégation de données hétérogènes de pricing et de KPI bancaires
+    details:
+      - Reporting hiérarchique
+      - Meetings quotidiens Agile
+      - Rédaction de spécifications et de documentation
+      - Conception de l'architecture applicative
+      - Développement et intégration
+    technologies_used: | 
+      Java, EJB, JPA, Oracle, Spring, Hibernate, Swing, Web Services, Maven, Tibco (bus d'entreprise pour le parsing des KPI), JMS
+
+  - role: Formation
+    time: Sep 2008 - Jul 2009 (11 mois)
+    company: IAE Sorbonne, Paris, France
+    content: |
+      Diplôme MBA
+      
+  - role: Ingénieur conception et développement
+    time: Mars 2006 - Jul 2008 (28 mois)
+    company: Cosmosbay / Sanofi-Aventis, Lyon, France
+    content: |
+      Applicatifs J2EE de gestion
+    details:
+      - Recueil des besoins utilisateurs
+      - Assistance à la conception de l'architecture des bases de données
+      - Développement, tests et intégration
+      - Familiarisation avec le progiciel de gestion du groupe (SAP)
+    technologies_used: | 
+      Java/J2EE, HQL, Eclipse, Oracle, SAP, Struts, Spring, Hibernate
+
+  - role: Ingénieur conception et développement
+    time: Oct 2005 - Fév 2006 (5 mois)
+    company: Sword / EDF, Lyon, France
+    content: |
+      Refonte d'applications en un portail web
+    details:
+      - Modélisation de données grâce à UML
+      - Découverte de l'architecture 3-tiers et de portails Web complexes
+      - Projet dynamique avec pic d'effectif à 20 personnes pour 5 mois
+      - Spécifications, développement, documentation et tests
+    technologies_used: | 
+      Java/J2EE, JBuilder, Weblogic, EJB, MDB, JMS, Oracle, UML
+
+  - role: Ingénieur conception et développement
+    time: Avr 2004 - Sep 2005 (18 mois)
+    company: Sword Group / Ministère de l'agriculture, Lyon, France
+    content: |
+      Client lourd SIG (Système d'Information Géographique)
+    details:
+      - Rédaction de spécifications
+      - Développement des fonctionnalités requises
+      - Documentation
+      - Ecriture de scénarios de tests
+      - Maintenance et résolution des erreurs
+    technologies_used: | 
+      Windows, Java, Swing, FOP, JBuilder, Eclipse, PowerAMC
+
+  - role: Ingénieur conception et développement
+    time: Sep 2003 - Mars 2004 (7 mois)
+    company: Sword / Mutuelle Adrea-Unio, Lyon, France
+    content: |
+      Numérisation, indexation, recherche et consultation de documents
+    details:
+      - Seul intervenant direct avec le client
+      - Recueil des besoins, rédaction de spécifications
+      - Installation et paramétrage de progiciels de GED
+      - Développements, documentation, tests
+    technologies_used: | 
+      Windows, Java, VB, SQL, Kofax Capture, Filenet, SQL Server, SVN, Tomcat
+
